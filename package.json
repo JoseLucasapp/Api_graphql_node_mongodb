@@ -1,0 +1,23 @@
+{
+  "name": "Api_graphql_node_mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/JoseLucasapp/Api_graphql_node_mongodb.git",
+  "author": "José Lucas <josluc2016@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx nodemon --exec babel-node ./src/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "graphql": "^16.0.1",
+    "mongoose": "^6.0.13"
+  }
+}
